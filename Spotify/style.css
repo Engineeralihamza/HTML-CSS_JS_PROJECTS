@@ -35,7 +35,28 @@ nav ul li {
   font-weight: bolder;
 }
 .container{
-    min-height: 75vh;
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url(bg.jpg) center;
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.songList{
+  width: 40%;
+}
+
+.songBanner {
+  background-color: aquamarine;
+  width: 40%;
 }
 
 .Bottom {
@@ -46,7 +67,16 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 12px 0;
 
+}
+.icons {
+  margin: 20px ;
+}
+
+.icons i {
+  cursor: pointer;
 }
 
 #myProgressBar {
