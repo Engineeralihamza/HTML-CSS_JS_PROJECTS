@@ -81,6 +81,7 @@ nav ul li {
 #myProgressBar {
     width: 80vh;
     text-align: center;
+    cursor: pointer;
 }
 
 .songItemContainer{
